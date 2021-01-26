@@ -7,7 +7,9 @@ public class WakeOnLanV2 {
     public static void main(String[] args) {
         args = new String[2];
         args[0] = "60.249.22.240";
+        args[0] = "182.155.80.38";
         args[1] = "4C:ED:FB:69:15:45";
+        args[1] = "04:D4:C4:54:83:0A";
         if (args.length != 2) {
             System.out.println("Usage: java WakeOnLan <broadcast-ip> <mac-address>");
             System.out.println("Example: java WakeOnLan 192.168.0.255 00:0D:61:08:22:4A");
